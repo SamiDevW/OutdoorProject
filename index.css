@@ -1,0 +1,89 @@
+header {
+    
+    /* position: fixed; */
+    width: 1900px;
+    height: 830px;
+    position: relative;
+    background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg);
+     background-size: cover, auto; /*the first image covers the header */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg) ;/*create a second bg image over the first image with css */
+    background-size: cover, auto; /* The second image cover the first one */
+    background-position: center;
+    background-attachment: fixed; 
+
+    
+    /* background-repeat: no-repeat; */
+ 
+    
+    
+}
+.intro-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 16px;
+
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.line {
+    font-family: "Noto Sans", sans-serif;
+    color: #fb2056;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 900;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+
+#btn-learn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.citation {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+
+
+}
+.citation p:nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.quote {
+    width: 94px;
+    height: 72px;
+    align-self: flex-start;
+    position: relative;
+    left: 450px;
+    bottom: 95px;
+
+
+}

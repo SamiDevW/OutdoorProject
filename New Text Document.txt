@@ -1,0 +1,31 @@
+# 2 images one on the other
+.element {
+    /* First background image */
+    background-image: url('first-image.jpg');
+
+    /* Second background image */
+    background-image: url('second-image.jpg'), url('first-image.jpg');
+    background-size: cover, auto; /* Set the second image to cover */
+    background-position: center; /* Center the background images */
+}
+# how to use a background image proprity to make a transparent sheet
+.container {
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the opacity here */
+}
+
+.background-image {
+  background-image: url('your-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  /* Other background properties */
+}
