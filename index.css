@@ -87,3 +87,76 @@ h3 {
 
 
 }
+.bg-txt-right-block{
+    
+    /* position: fixed; */
+    width: 1900px;
+    height: 830px;
+    position: relative;
+    background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/section-bg-img.jpg);
+     background-size: cover, auto; /*the first image covers the header */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/section-bg-img.jpg) ;/*create a second bg image over the first image with css */
+    background-size: cover, auto; /* The second image cover the first one */
+    background-position: center;
+    background-attachment: fixed; 
+
+    
+    /* background-repeat: no-repeat; */
+ 
+    
+    
+}
+.bg-txt-right-block{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.txt-right-block {
+
+    
+    width: 570px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+
+
+}
+
+h2 {
+    font-size: 34px;
+
+}
+.txt-right-block h2 {
+    color: white;
+}
+.basic-text {
+    font-size: 16px;
+    color: white;
+}
+.grid-photos {
+    display: flex;
+    
+}
+.col-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+.col-img img {
+    display: inline-block;
+    width: 360px;
+}
+.text-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
+
+}
+.text-markup {
+    width:380px ;
+}
