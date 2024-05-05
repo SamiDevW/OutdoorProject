@@ -1,13 +1,11 @@
 header {
     
     /* position: fixed; */
-    width: 1900px;
-    height: 830px;
+    width: 100%;
+    height: 100vh;
     position: relative;
-    background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg);
-     background-size: cover, auto; /*the first image covers the header */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg) ;/*create a second bg image over the first image with css */
-    background-size: cover, auto; /* The second image cover the first one */
+    background-size: cover; /* The second image cover the first one */
     background-position: center;
     background-attachment: fixed; 
 
@@ -17,38 +15,12 @@ header {
     
     
 }
-.intro-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-}
-
-h1 {
-    font-size: 64px;
-    margin-top: 16px;
+h2 {
+    padding-top: 10px;
 
 }
 
-h3 {
-    font-size: 24px;
-    margin-bottom: 0;
-}
 
-.line {
-    font-family: "Noto Sans", sans-serif;
-    color: #fb2056;
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 900;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-
-}
 
 #btn-learn {
     margin-top: 20px;
@@ -90,21 +62,17 @@ h3 {
 .bg-txt-right-block{
     
     /* position: fixed; */
-    width: 1900px;
-    height: 830px;
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/section-bg-img.jpg);
-     background-size: cover, auto; /*the first image covers the header */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/section-bg-img.jpg) ;/*create a second bg image over the first image with css */
-    background-size: cover, auto; /* The second image cover the first one */
+    background-size: cover; /* The second image cover the first one */
     background-position: center;
     background-attachment: fixed; 
 
     
     /* background-repeat: no-repeat; */
  
-    
-    
 }
 .bg-txt-right-block{
     display: flex;
@@ -125,10 +93,7 @@ h3 {
 
 }
 
-h2 {
-    font-size: 34px;
 
-}
 .txt-right-block h2 {
     color: white;
 }
@@ -159,4 +124,8 @@ h2 {
 }
 .text-markup {
     width:380px ;
+}
+.img-shadow img {
+    width: 475px;
+    height: 297px;
 }

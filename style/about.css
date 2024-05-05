@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg) ;/*create a second bg image over the first image with css */
+    background-size: cover; /* The second image cover the first one */
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+.sec-mission {
+    /* display: grid;
+    grid: 520px 520px / 350px 350px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-shadow {
+    
+
+}
+
+
+
+
+
+
+
+
+
