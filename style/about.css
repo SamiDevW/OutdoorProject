@@ -1,8 +1,8 @@
 header {
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg) ;/*create a second bg image over the first image with css */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');/*create a second bg image over the first image with css */
     background-size: cover; /* The second image cover the first one */
     background-attachment: fixed; 
     background-repeat: no-repeat;
@@ -19,10 +19,73 @@ header {
 
 }
 
-.img-shadow {
-    
+
+.sec-mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-block-row, .bot-block-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 
 }
+.top-block-row{
+    margin: 50px 0;
+    gap: 50px; 
+
+    
+}
+.bot-block-row{
+    margin: 50px 0;
+    gap: 50px;
+    align-items: baseline;
+}
+.img-shadow{
+    display: inline-block;
+    width: 50%;
+    
+    box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
