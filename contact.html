@@ -16,8 +16,11 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/contact.css">
     <style>
         body,
         ul,
@@ -32,7 +35,7 @@
         }
     </style>
 
-    <title>Sam About - Outdoor Adventure</title>
+    <title>Sam contact - Outdoor contact</title>
 </head>
 
 <body>
@@ -62,54 +65,36 @@
         </nav>
         <section class="intro-box">
             <div>
-                <h1>Who We Are?</h1>
+                <h1>Contact Us</h1>
             </div>
 
         </section>
     </header>
     <main>
-        <section class="sec-mission">
-            <div class="top-block-row">
+        <section class="contact-form">
+            <form method="post">
+                <h2>We're Ready, Let's Talk.</h2>
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Your Name" size="47" >
+                <input type="email" id="email" placeholder="Email Adress"  size="47">
+                <textarea name="message" id="message" placeholder="message" rows="6" cols="35" required></textarea>
+                <button>SEND MESSAGE</button>
+            </form>
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <span>Address​</span>
+                <p>123 Fifth Avenue, NY 10160, New York, USA</p>
+                <span>Email Us​</span>
+                <p>contact@example.com</p>
+                <span>Call Us​</span>
+                <p>800-123-456</p>
+                <h5>Follow Us</h5>
                 <div>
-                    <h2>Our MissioN</h2>
-                    <p class="line">___</p>
-                    <p class="basic-text">Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda concordi.
-                        Fert his. Recessit mentes praecipites locum caligine sui egens erat. Silvas caeli regna.</p>
-                </div>
-                <img class="img-shadow"
-                src="./images-about/outdoor-image-02.jpg"
-                alt="">
-        
-               
-                
-            </div>
-            <div class="bot-block-row">
-                <div>
-                    <h4>Extraordinary Experiences</h4>
-                    <p class="line">___</p>
-                    <p class="basic-text">Click edit button to change this text. Lorem ipsum dolor sit amet, adipiscing
-                        elit.</p>
-                    <p class="basic-text">Click edit button to change this text. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                        leo.
-                    </p>
-
-
-
+                    <span > <a href="#" class="fa fa-facebook"></a></span>
                 </div>
                 
-               
-                <div>
-                    <h4>Our Core Values</h4>
-                    <p class="line">___</p>
-                    <p class="basic-text">Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda concordi.
-                        Fert his. Recessit mentes praecipites locum caligine sui egens erat. Silvas caeli regna.</p>
-                    <p><span class="line">-</span> Locavit liberioris possedit</p>
-                    <p><span class="line">-</span> Diremit mundi mare undae</p>
-                    <p><span class="line">-</span> Spectent tonitrua mutastis</p>
-                </div>
-            </div>
 
+            </div>
         </section>
 
     </main>
@@ -119,6 +104,7 @@
             <p>Copyright &copy; 2024 Outdoor Adventure</p>
         </div>
     </footer>
+
 </body>
 
 </html>
