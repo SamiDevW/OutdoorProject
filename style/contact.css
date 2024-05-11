@@ -1,87 +1,172 @@
 header {
-    
+
     /* position: fixed; */
     width: 100%;
     height: 100vh;
     position: relative;
     /* background-image: url('../images/hero-bg.jpg'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-contact/about-bg-2.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 
-    
+
     /* background-repeat: no-repeat; */
- 
+
+
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color:#eff1f3f7;
+    padding-right: 120px;
     
+
+}
+h2{
+    
+    /* margin-bottom:20px ; */
+    align-self: baseline;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
 }
 
 form {
     height: 100vh;
     
+    width: 560px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
     
+
 }
+form h2 {
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
 input {
-    padding-top: 10px;
+    width: inherit;
+    padding: 12px ;
     margin-top: 20px;
+    /* height: 53px; */
+    font-size: 16px;
+    border: rgb(221, 221, 221) 1px solid;
     
+
+
 }
+
 textarea {
+    width: 588px;
     overflow: auto;
     text-align: start;
     resize: none;
+    
     margin-top: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
     margin-bottom: 20px;
     padding: 12px;
     color: #666;
-    border: solid 1px #666;
+    border: solid 1px rgb(221, 221, 221);
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
-    font-size: 16px ;
+    font-size: 16px;
     height: 120px;
     line-height: 27.2px;
+    padding: 12px;
 }
 
-button{
+input, textarea {
+    border-radius:2px;
+    font-size: 16px;
+}
+
+
+button {
     color: white;
-    background-color:#fb2056 ;
+    background-color: #fb2056;
     padding: 17px 40px;
     border-radius: 30px;
+    align-self: baseline;
+    border: #fb2056;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
 }
-.contact-form {
-    display: flex;
-    
-}
+
+
 .contact-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 35px;
+    margin-bottom: 60px;
 
 }
-.fa {
-/* padding: 20px; */
+span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
     font-size: 16px;
-  /* width: 50px; */
-  text-align: center;
-  text-decoration: none;
-  margin: 2px 2px;
-  font-weight: 400;
 
 }
-.fa:hover {
-    opacity: 0.7;
+
+
+
+
+/* social media */
+.social {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.fa {
+    
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px 14px;
+    
+
 }
 .fa-facebook {
     border-radius: 50%;
     background: #fb2056;
     color: white;
-    height: 38.4px;
+    font-size: 14px;
     
     
+}
+.fa-twitter{
+    border-radius: 50%;
+    background: #fb2056;
+    color: white;
+    padding: 10px 10px;
+    
+}
+.fa-youtube {
+    border-radius: 50%;
+    background: #fb2056;
+    color: white;
+    padding: 10px 10px;
+    
+    
+}
+.fa:hover {
+    opacity: 0.7;
+}
 
-  }

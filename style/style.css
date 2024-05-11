@@ -6,6 +6,12 @@ body{
 a {
     text-decoration: none;
 }
+p {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: start;
+}
 
 nav {
 
@@ -28,27 +34,41 @@ nav {
 }
 .nav-link a {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     color: white;
+    padding: 0px 16px;
     /* margin-top: 40px; */
 }
 /* button design  */
 .btn {
-
     width: 150px;
     height: 25px;
     border-radius: 30px;
     background-color: #fb2056;
     text-align: center;
-    padding: 15px 20px;
-    padding-top: 20px;
+    text-justify: center;
+    padding: 12px 12px;
+    /* padding-top: 15px; */
     text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
 }
 .btn a {
     color: white;
+    font-weight: 700;
+    text-align: center;
+    
 }
+.fa-long-arrow-alt-right{
+    padding-left: 10px;
+    padding-right: 0;
+}
+.btn:hover {
+    background-color: #fb2057bd;
+}
+
 /* headers  */
 h1 {
     font-size: 64px;
@@ -58,6 +78,7 @@ h1 {
 }
 h2 {
     font-size: 34px;
+    font-family: "Montserrat", sans-serif;
 
 }
 h3 {
@@ -66,6 +87,12 @@ h3 {
 }
 h4{
     font-size: 20px;
+}
+h5{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
 }
 /* first bg  */
 .intro-box {
@@ -78,18 +105,24 @@ h4{
     color: white;
 }
 
-.line {
-    font-family: "Noto Sans", sans-serif;
-    color: #fb2056;
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 900;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
+.intro-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
 }
-/* title line text  */
+
+.line  {
+    border: none;
+    border-top: #fb2056 solid 3px;
+    width: 80px ;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
 
 
