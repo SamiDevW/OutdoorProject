@@ -27,7 +27,7 @@ header {
     align-items: center;
 }
 
-.top-block-row, .bot-block-row{
+.top-block-row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,22 +40,13 @@ header {
 
     
 }
-.bot-block-row{
-    margin: 50px 0;
-    gap: 50px;
-    align-items: baseline;
-}
+
 .img-shadow{
     display: inline-block;
     width: 60%;
     
     box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
 }
-
-
-
-
-
 
 
 

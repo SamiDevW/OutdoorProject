@@ -94,6 +94,11 @@ h5{
     font-weight: 700;
 
 }
+h6{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+
+}
 /* first bg  */
 .intro-box {
     display: flex;
@@ -117,11 +122,30 @@ h5{
 .line  {
     border: none;
     border-top: #fb2056 solid 3px;
-    width: 80px ;
+    width: 60px ;
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
+}
+.list {
+    width: 12px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+
+.line-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.line-text p {
+    display: inline-block;
+    
 }
 
 
@@ -150,6 +174,7 @@ h5{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #f5f5f5;
 
 }
 
@@ -175,4 +200,16 @@ h5{
 .img-shadow img {
     display: block;
     box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+}
+.text-center {
+    text-align: center;
+    
+}
+.bot-block-row{
+    margin: 50px 0;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }

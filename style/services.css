@@ -16,3 +16,55 @@ header {
     
     
 }
+h2 {
+    padding-top: 50px;
+}
+.title-h2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    padding-bottom: 50px;
+}
+.title-h2 p {
+    width: 780px;
+}
+h2 {
+    padding-top: 100px;
+}
+.img-shadow p {
+    width: 470px;
+}
+.bot-block-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+
+}
+.bot-block-row + div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+}
+.bot-block-row  {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 60%;
+   /* padding-left:100px ; */
+   gap:120px ;
+}
+.two-img{
+    gap: 20px;
+}
+.img-shadow img {
+    width: 80%;
+}
+.two-img-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    
+
+}

@@ -11,7 +11,7 @@ header {
     background-attachment: fixed; 
     /* background-repeat: no-repeat; */   
 }
-#line-top{
+.top{
 
     border-top: #fb2056 solid 2px;
 }
@@ -46,7 +46,7 @@ h2 {
     gap: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 
 
 }
@@ -145,7 +145,7 @@ h2 {
 }
 .img-shadow p {
     width: 475px;
-    text-align: center;
+    
 }
 .img-shadow h5 {
     padding-top: 20px;
