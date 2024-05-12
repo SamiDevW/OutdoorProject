@@ -34,23 +34,26 @@ h2 {
     margin-bottom: 20px;
 }
 
-.citation {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 20px;
-    background-color: #f5f5f5;
-    color: black;
+.citation-block {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /* margin-top: 15px; */
+    padding-top: 50px;
+    background-color: #f5f5f5;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px; }
 
+.citation{
+    margin-left:100px;
+    text-align: start;
+    margin-right: 150px;
+    margin-bottom: 100px;
 
 }
+
+    
 .citation p:nth-child(2) {
+    padding-top: 20px;
+    text-align: center;
     font-size: 16px;
     font-weight: bold;
     
@@ -59,10 +62,7 @@ h2 {
 .quote {
     width: 94px;
     height: 72px;
-    align-self: flex-start;
-    position: relative;
-    left: 450px;
-    bottom: 95px;
+    
 
 
 }
@@ -149,4 +149,24 @@ h2 {
 }
 .img-shadow h5 {
     padding-top: 20px;
+}
+@media all and (max-width: 920px) {
+
+    
+    .txt-right-block {
+
+        position: static;
+        margin: auto ;
+        
+
+    }
+    .citation-block
+     {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .quote{
+        padding: 0;
+    }
 }
