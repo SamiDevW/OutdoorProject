@@ -170,3 +170,18 @@ p{
     opacity: 0.7;
 }
 
+@media all and (max-width: 920px) {
+
+    
+    .contact-form,form 
+     {
+        display: flex;
+        flex-direction: column;
+
+    }
+    form {
+        height: fit-content;
+    }
+    
+}
+

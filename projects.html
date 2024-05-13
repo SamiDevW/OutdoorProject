@@ -39,27 +39,33 @@
 <body>
     <header>
         <nav>
+            
             <div class="nav-logo">
-                <div><img width="150" height="42"
-                        src="https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/white-logo-150x42.png"
-                        alt="" decoding="async"
-                        srcset="https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/white-logo.png 1x, https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/white-logo@2x.png 2x"
-                        sizes="(max-width: 150px) 100vw, 150px">
-                </div>
+                <img class="white-logo" width="150" height="42"
+                        src="white-logo.png" alt="">
+                        <img class="dark-logo" width="150" height="42"
+                        src="logo-collapse.png" alt="">
+                        <span class="navbar-toggle" onclick="toggleNavbar()">&#9776;</span>
+                
+                
             </div>
+            
 
             <div class="nav-link">
+                
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="services.html">Services</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
-                <div class="btn"><a class="btn-link" href="#">
+                <div class="btn action"><a class="btn-link" href="#">
                         TAKE ACTION
                 </div>
                 </a>
 
             </div>
+            
+            
         </nav>
         <section class="intro-box">
             <div>
@@ -190,7 +196,9 @@
             <p>Copyright &copy; 2024 Outdoor Adventure</p>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js">   
+    </script><script src="navbar.js"></script>
+
 </body>
 
 </html>

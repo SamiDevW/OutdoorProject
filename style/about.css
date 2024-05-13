@@ -48,7 +48,17 @@ header {
     box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
 }
 
+@media all and (max-width: 920px) {
 
+    
+    .top-block-row, .bot-block-row, .sec-mission
+     {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
 
 
 

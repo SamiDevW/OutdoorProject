@@ -6,7 +6,8 @@ function toggleOff() {
 
 
   if (toggle.style.display === "none") {
-    navLinks.style.display = '"flex" !important';
+    navLinks.style.setProperty("display", "flex", "important");
+    // navLinks.style.display = `"flex" !important`;
   }
 
 }
