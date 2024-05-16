@@ -15,7 +15,7 @@ function currentSlide(n) {
 
 // showSlides function
 // create a function with an input (n)
-function showSlides(n,element) {
+function showSlides(n) {
     let i;
     // import the in a variable my block of images
     let slides = document.querySelectorAll(".images");

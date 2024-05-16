@@ -1,18 +1,13 @@
 header {
-    
-    /* position: fixed; */
+
     width: 100%;
     height: 100vh;
     position: relative;
-    /* background-image: url('../images-home/hero-bg.jpg'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/hero-bg.jpg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;  
-    /* background-blend-mode:normal; 
-    filter: grayscale(10%); */
 
-    /* background-repeat: no-repeat; */   
 }
 .top{
 
@@ -73,23 +68,16 @@ h2 {
     margin-top: 20px;
 }
 .bg-txt-right-block{
-    
-    /* position: fixed; */
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/section-bg-img.jpg') ;/*create a second bg image over the first image with css */
-    background-size: cover; /* The second image cover the first one */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/section-bg-img.jpg') ;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed; 
-
-    
-    /* background-repeat: no-repeat; */
- 
 }
 .bg-txt-right-block{
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -116,6 +104,7 @@ h2 {
 }
 .grid-photos {
     display: flex;
+    justify-content: center;
     
 }
 .col-img {
@@ -123,39 +112,34 @@ h2 {
     flex-direction: column;
     gap: 10px;
     padding-left: 20px;
+    width: 35%;
 }
 .col-img img {
     display: inline-block;
-    width: 360px;
 }
 .text-photos{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 120px 0px;
-
 }
 .text-markup {
-    width:380px ;
-    
+    width:20% ;
 }
 .text-markup p {
     padding-bottom: 30px;
 }
-.img-shadow img {
-    width: 475px;
-    height: 297px;
+.img-shadow {
+    width: 80%;
 }
 .img-shadow p {
-    width: 475px;
+    width: 80%;
     
 }
 .img-shadow h5 {
     padding-top: 20px;
 }
-@media all and (max-width: 920px) {
-
-    
+@media all and (max-width: 1024px) {
     .txt-right-block {
 
         position: static;
@@ -168,6 +152,18 @@ h2 {
         display: flex;
         flex-direction: column;
 
+    }  
+    .grid-photos {
+        
+        align-items: center;
+        
     }
-    
+    .grid-photos {
+        width: 100%;
+        align-items: center;
+        
+    }
+    .col-img{
+        width: 80%;
+    }
 }
