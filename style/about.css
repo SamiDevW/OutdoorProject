@@ -97,6 +97,10 @@ header {
     .top-block-row {
         width: 80%;
     }
+    .img-shadow {
+        width: 70%
+        
+    }
 }
 @media all and (max-width: 720px) {
 .img-shadow {

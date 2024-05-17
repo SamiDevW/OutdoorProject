@@ -71,12 +71,12 @@ p {
 /* NavBar */
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .nav-logo {
     align-self: flex-start;
-    
+
     margin-left: 380px;
     margin-top: 10px;
 }
@@ -245,6 +245,7 @@ nav {
 
 
 }
+
 @supports (display: flex) {
     @media all and (min-width: 1024px) {
 
@@ -256,10 +257,12 @@ nav {
         }
     }
 }
+
 @media all and (max-width: 1024px) {
-    header{
+    header {
         height: 40vh;
     }
+
     .two-img,
     .bot-block-row,
     .text-photos,
@@ -269,7 +272,7 @@ nav {
         flex-direction: column;
 
     }
-  
+
 
     .grid-photos,
     .text-markup {
@@ -342,27 +345,26 @@ nav {
     }
 
     .citation {
-        text-align:center;
+        text-align: center;
     }
 
-    .footer-bar p{
+    .footer-bar p {
         width: 80%;
         text-align: center;
-        
+
     }
 
 }
 
-@media (max-width:768px) {
-    
-}
+@media (max-width:768px) {}
 
 @media (max-width:480px) {
-    h1{
-     font-size: 30px;   
+    h1 {
+        font-size: 30px;
     }
+
     h3 {
         font-size: 20px;
     }
- 
+
 }
