@@ -173,22 +173,26 @@ p{
         align-items: flex-start;
     }
 }
-
-/* @media all and (max-width: 420px) {
+@media all and (max-width: 720px) {
 
     
-    .contact-form,form 
+    textarea,input 
      {
-       
+       width: 80%;
     }
     form {
-        
+        width: 100%;;
     }
-    .contact-form{
-        
+}
+
+@media all and (max-width: 420px) {
+
+    
+    textarea,input 
+     {
+       width: 80%;
     }
-    .contact-info{
-        
-        
+    form {
+        width: 100%;;
     }
-} */
+}

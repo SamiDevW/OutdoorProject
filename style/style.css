@@ -71,13 +71,13 @@ p {
 /* NavBar */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav-logo {
-    align-self: flex-start;
+    /* align-self: flex-start; */
 
-    margin-left: 380px;
+    margin-left: 150px;
     margin-top: 10px;
 }
 
