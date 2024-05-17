@@ -38,9 +38,12 @@ header {
 
 }
 
-.top-block-row p,
-.bot-block-row p {
+
+
+.top-block-row p {
     width: 50%;
+    padding-bottom: 50px;
+
 
 
 }
@@ -64,7 +67,7 @@ header {
     .sec-mission {
         display: flex;
         flex-direction: column;
-        
+
 
     }
 
@@ -77,34 +80,37 @@ header {
     .top-block-row p,
     .bot-block-row p {
         width: 100%;
-        
+
 
 
     }
-    .top-block-row ,
-    .bot-block-row  {
-        
+
+    .top-block-row,
+    .bot-block-row {
+
         padding-bottom: 50px;
 
 
     }
+
     .sec-mission {
         width: 100%;
         padding: 0;
         align-items: center;
 
     }
+
     .top-block-row {
         width: 80%;
     }
+
     .img-shadow {
         width: 70%
-        
     }
 }
+
 @media all and (max-width: 720px) {
-.img-shadow {
-    width: 70%
-    
-}
+    .img-shadow {
+        width: 70%
+    }
 }

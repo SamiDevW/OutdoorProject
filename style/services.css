@@ -35,8 +35,6 @@ h5 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding-right: 200px; */
-
 }
 
 .bot-block-row+div {
@@ -52,14 +50,11 @@ h5 {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-
     padding-left: 70px;
 }
 
 .bot-block-row p {
-
     width: 80%;
-
 }
 
 .bot-block-row div {
@@ -86,31 +81,28 @@ h5 {
 @media all and (max-width: 1024px) {
 
     .bot-block-sec p {
-
-        
-        
         margin: 0;
-        
     }
 
     .bot-block-row {
         margin: 0;
-        
         width: 80%;
-
         padding: 50px;
     }
-    .bot-block-row div {
 
+    .bot-block-row div {
         width: 80%;
         padding: 20px;
-    
     }
 
     .title-h2 p {
         width: 80%;
     }
 
+}
 
-
+@media all and (max-width: 720px) {
+    h2 {
+        text-align: center;
+    }
 }

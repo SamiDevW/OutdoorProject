@@ -83,5 +83,21 @@ p {
   background-color: #fb2057bd;
 }
 
+@media all and (max-width: 1024px) {
+.images img,
+.imagesB img,
+.imagesC img {
 
+  width: 40%;
+
+}
+.images :nth-child(3),
+.imagesB :nth-child(3),
+.imagesC :nth-child(3) {
+  display: none;
+  
+}
+
+  
+}
 
