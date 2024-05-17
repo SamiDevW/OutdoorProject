@@ -1,5 +1,4 @@
 header {
-    width: 100%;
     height: 100vh;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-services/services-bg.jpg');
@@ -16,12 +15,13 @@ header {
 }
 
 .title-h2 p {
-    width: 780px;
+    width: 80%;
 }
 
 h2 {
-    padding-top: 50px  !important;
+    padding-top: 50px !important;
 }
+
 h5 {
     padding-top: 10px;
 }
@@ -35,6 +35,7 @@ h5 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* padding-right: 200px; */
 
 }
 
@@ -46,11 +47,25 @@ h5 {
 }
 
 .bot-block-row {
+    margin: 50px 0;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 60%;
-    gap: 120px;
+    justify-content: space-around;
+    width: 100%;
+
+    padding-left: 70px;
+}
+
+.bot-block-row p {
+
+    width: 80%;
+
+}
+
+.bot-block-row div {
+
+    width: 35%;
+
 }
 
 .two-img {
@@ -66,4 +81,36 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: space-around;
+}
+
+@media all and (max-width: 1024px) {
+
+    .bot-block-sec p {
+
+        
+        
+        margin: 0;
+        
+    }
+
+    .bot-block-row {
+        margin: 0;
+        
+        width: 80%;
+
+        padding: 50px;
+    }
+    .bot-block-row div {
+
+        width: 80%;
+        padding: 20px;
+    
+    }
+
+    .title-h2 p {
+        width: 80%;
+    }
+
+
+
 }

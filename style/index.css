@@ -4,12 +4,13 @@ header {
     height: 100vh;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/hero-bg.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed;  
+    background-attachment: fixed;
 
 }
-.top{
+
+.top {
 
     border-top: #fb2056 solid 2px;
 }
@@ -17,6 +18,10 @@ header {
 h2 {
     padding-top: 10px;
 
+}
+.basic-text {
+    font-size: 16px;
+    color: white;
 }
 .title-h2 {
     display: flex;
@@ -38,59 +43,72 @@ h2 {
     padding-top: 50px;
     background-color: #f5f5f5;
     font-family: "Noto Sans", sans-serif;
-    font-size: 20px; }
+    font-size: 20px;
+}
 
-.citation{
-    margin-left:100px;
+.citation {
+    margin-left: 100px;
     text-align: start;
     margin-right: 150px;
     margin-bottom: 100px;
 
 }
 
-    
+
 .citation p:nth-child(2) {
     padding-top: 20px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    
+
 }
 
 .quote {
     width: 94px;
     height: 72px;
-    
+}
+/* section 2 */
+.img-shadow {
+    width: 80%;
+}
+.img-shadow img {
+    width: 75%;
+}
+.img-shadow p {
+    width: 80%;
 
+}
 
+.img-shadow h5 {
+    padding-top: 20px;
 }
 .two-img {
     margin-top: 20px;
 }
-.bg-txt-right-block{
-    width: 100%;
+/* section 3 text right */
+
+.bg-txt-right-block {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/section-bg-img.jpg') ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/section-bg-img.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
-.bg-txt-right-block{
+
+.bg-txt-right-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-.txt-right-block {
 
+}
+
+.txt-right-block {
+    width: 30%;
+    padding-left: 500px;
+    padding-bottom: 50px;
     
-    width: 500px;
-    position: relative;
-    left: 300px;
-    bottom: 100px;
-    margin-right: 50px;
 
 }
 
@@ -98,72 +116,127 @@ h2 {
 .txt-right-block h2 {
     color: white;
 }
-.basic-text {
-    font-size: 16px;
-    color: white;
-}
-.grid-photos {
-    display: flex;
-    justify-content: center;
-    
-}
-.col-img {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 20px;
-    width: 35%;
-}
-.col-img img {
-    display: inline-block;
-}
-.text-photos{
+
+
+/* Section 4 images */
+.text-photos {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 120px 0px;
 }
-.text-markup {
-    width:20% ;
+.grid-photos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
 }
+
+.col-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding-left: 20px; */
+    width: 35%;
+}
+
+.col-img img {
+    display: inline-block;
+}
+
+.text-markup {
+    width: 25%;
+}
+
 .text-markup p {
+    width: 80%;
     padding-bottom: 30px;
 }
-.img-shadow {
-    width: 80%;
-}
-.img-shadow p {
-    width: 80%;
-    
-}
-.img-shadow h5 {
-    padding-top: 20px;
-}
+
+
+
 @media all and (max-width: 1024px) {
+    .text-photos{
+        align-items: center;
+    }
     .txt-right-block {
 
-        position: static;
-        margin: auto ;
         
+        padding: 0;
+
 
     }
-    .citation-block
-     {
+
+    .citation-block {
         display: flex;
         flex-direction: column;
 
-    }  
-    .grid-photos {
-        
-        align-items: center;
-        
     }
+
+    .grid-photos {
+
+        align-items: center;
+        padding: 0;
+
+    }
+
     .grid-photos {
         width: 100%;
         align-items: center;
-        
+
     }
-    .col-img{
+
+    .col-img {
         width: 80%;
     }
+    .col-img img {
+        width: 100%;
+    }
+    .text-markup {
+        width: 80%;
+    }
+    .navbar-logo {
+        margin-right: 0;
+    }
+    .txt-right-block{
+        width: 80%;
+    }
+    
+}
+@media (max-width:768px) {
+    .img-shadow img {
+        width: 80%;
+    }
+    .bg-txt-right-block{
+        align-items: center;
+        margin: 0;
+        padding-left: 10px;
+    }
+    
+    /* .navbar-toggle {
+        margin-right: 10px;
+    } */
+    .txt-right-block{
+        width: 60%;
+    }
+    
+}
+
+@media (max-width:480px) {
+    .citation-block p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .citation {
+        width: 60%;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .txt-right-block{
+        width: 80%;
+    }
+    
+ 
 }

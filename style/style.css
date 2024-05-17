@@ -76,7 +76,7 @@ nav {
 
 .nav-logo {
     align-self: flex-start;
-    width: 100vw;
+    
     margin-left: 380px;
     margin-top: 10px;
 }
@@ -230,18 +230,6 @@ nav {
     box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
 }
 
-
-
-.bot-block-row {
-    margin: 50px 0;
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-
 /* common footer */
 .footer-bar {
     background-color: #191919;
@@ -257,10 +245,21 @@ nav {
 
 
 }
+@supports (display: flex) {
+    @media all and (min-width: 1024px) {
+
+        .nav-link {
+
+            display: flex !important;
 
 
+        }
+    }
+}
 @media all and (max-width: 1024px) {
-
+    header{
+        height: 40vh;
+    }
     .two-img,
     .bot-block-row,
     .text-photos,
@@ -270,6 +269,7 @@ nav {
         flex-direction: column;
 
     }
+  
 
     .grid-photos,
     .text-markup {
@@ -342,23 +342,27 @@ nav {
     }
 
     .citation {
-        text-align: start;
+        text-align:center;
     }
 
-    .col-img {
+    .footer-bar p{
         width: 80%;
+        text-align: center;
+        
     }
 
 }
 
-@supports (display: flex) {
-    @media all and (min-width: 1024px) {
+@media (max-width:768px) {
+    
+}
 
-        .nav-link {
-
-            display: flex !important;
-
-
-        }
+@media (max-width:480px) {
+    h1{
+     font-size: 30px;   
     }
+    h3 {
+        font-size: 20px;
+    }
+ 
 }

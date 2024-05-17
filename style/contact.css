@@ -1,19 +1,11 @@
 header {
-
-    /* position: fixed; */
     width: 100%;
     height: 100vh;
     position: relative;
-    /* background-image: url('../images/hero-bg.jpg'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-contact/about-bg-2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
-
-    /* background-repeat: no-repeat; */
-
-
 }
 .contact-form{
     display: flex;
@@ -22,12 +14,8 @@ header {
     gap: 50px;
     background-color:#eff1f3f7;
     padding-right: 120px;
-    
-
 }
 h2{
-    
-    /* margin-bottom:20px ; */
     align-self: baseline;
     font-family: "Montserrat", sans-serif;
     font-size: 34px;
@@ -35,15 +23,12 @@ h2{
 
 form {
     height: 100vh;
-    
     width: 560px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
-    
-
 }
 form h2 {
     padding-top: 20px;
@@ -54,20 +39,15 @@ input {
     width: inherit;
     padding: 12px ;
     margin-top: 20px;
-    /* height: 53px; */
     font-size: 16px;
     border: rgb(221, 221, 221) 1px solid;
-    
-
-
 }
 
 textarea {
     width: 588px;
     overflow: auto;
     text-align: start;
-    resize: none;
-    
+    resize: none;  
     margin-top: 10px;
     margin-left: 13px;
     margin-right: 13px;
@@ -177,11 +157,38 @@ p{
      {
         display: flex;
         flex-direction: column;
+        
+        
 
     }
     form {
         height: fit-content;
     }
-    
+    .contact-form{
+        align-items: baseline;
+        padding-left: 50px;
+    }
+    .contact-info{
+        
+        align-items: flex-start;
+    }
 }
 
+/* @media all and (max-width: 420px) {
+
+    
+    .contact-form,form 
+     {
+       
+    }
+    form {
+        
+    }
+    .contact-form{
+        
+    }
+    .contact-info{
+        
+        
+    }
+} */

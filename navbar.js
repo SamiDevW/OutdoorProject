@@ -39,17 +39,4 @@ function toggleNavbar() {
 
 
 
-// let screenWidth = window.innerWidth;
-//   if(toggle.style.display === "block"){
-//     navLinks.style.display = "flex";
-//   }
 
-
-// toggleOff ();
-// function toggleOff (){
-//   let toggle = document.querySelector(".navbar-toggle");
-//   if(toggle.style.display === "block"){
-//     navLinks.style.display = "flex";
-//   }
-
-// }

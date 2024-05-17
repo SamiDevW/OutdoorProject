@@ -1,98 +1,106 @@
 header {
-    /* width: 100%; */
+
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-about/about-bg-5.jpg');/*create a second bg image over the first image with css */
-    background-size: cover; /* The second image cover the first one */
-    background-attachment: fixed; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-about/about-bg-5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
- 
+
 }
 
 .sec-mission {
-    /* display: grid;
-    grid: 520px 520px / 350px 350px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 200px;
 
-}
-
-
-.sec-mission{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .top-block-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0;
+
+
+}
+
+.bot-block-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.bot-block-row div {
+    width: 100% !important;
+    height: 50%;
+
+}
+
+.top-block-row p,
+.bot-block-row p {
     width: 50%;
 
-}
-.top-block-row{
-    margin: 50px 0;
-    gap: 50px; 
 
-    
 }
 
-.img-shadow{
+.img-shadow {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-shadow {
     display: inline-block;
-    width: 60%;
-    
     box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
 }
 
 @media all and (max-width: 1024px) {
 
-    
-    .top-block-row, .bot-block-row, .sec-mission
-     {
+
+    .top-block-row,
+    .bot-block-row,
+    .sec-mission {
         display: flex;
         flex-direction: column;
+        
 
     }
+
+    .bot-block-row {
+        width: 80%;
+        padding-top: 50px;
+
+    }
+
+    .top-block-row p,
+    .bot-block-row p {
+        width: 100%;
+        
+
+
+    }
+    .top-block-row ,
+    .bot-block-row  {
+        
+        padding-bottom: 50px;
+
+
+    }
+    .sec-mission {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+
+    }
+    .top-block-row {
+        width: 80%;
+    }
+}
+@media all and (max-width: 720px) {
+.img-shadow {
+    width: 70%
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
