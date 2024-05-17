@@ -1,5 +1,4 @@
 header {
-
     height: 100vh;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-about/about-bg-5.jpg');
@@ -7,7 +6,6 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .sec-mission {
@@ -21,21 +19,17 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px 0;
-
-
 }
 
 .bot-block-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-
 }
 
 .bot-block-row div {
     width: 100% !important;
     height: 50%;
-
 }
 
 
@@ -43,9 +37,6 @@ header {
 .top-block-row p {
     width: 50%;
     padding-bottom: 50px;
-
-
-
 }
 
 .img-shadow {
@@ -67,37 +58,27 @@ header {
     .sec-mission {
         display: flex;
         flex-direction: column;
-
-
     }
 
     .bot-block-row {
         width: 80%;
         padding-top: 50px;
-
     }
 
     .top-block-row p,
     .bot-block-row p {
         width: 100%;
-
-
-
     }
 
     .top-block-row,
     .bot-block-row {
-
         padding-bottom: 50px;
-
-
     }
 
     .sec-mission {
         width: 100%;
         padding: 0;
         align-items: center;
-
     }
 
     .top-block-row {

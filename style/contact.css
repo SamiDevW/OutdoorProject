@@ -1,5 +1,4 @@
 header {
-
     height: 100vh;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-contact/about-bg-2.jpg');
@@ -33,7 +32,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     padding: 0;
 }
 
@@ -65,11 +63,8 @@ textarea {
     object-fit: cover;
     overflow: auto;
     text-align: start;
-
     margin-top: 10px;
-    /* margin-left: 10px; */
     margin-right: 15px;
-
     margin-bottom: 20px;
     padding: 12px;
     color: #666;
@@ -81,9 +76,6 @@ textarea {
     line-height: 27.2px;
     padding: 12px;
 }
-
-
-
 
 button {
     color: white;
@@ -116,13 +108,10 @@ span {
 p {
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
-
 }
 
-
-
-
 /* social media */
+
 .social {
     display: flex;
     align-items: center;
@@ -131,14 +120,11 @@ p {
 
 
 .fa {
-
     font-size: 16px;
     text-align: center;
     text-decoration: none;
     font-weight: 400;
     padding: 10px 14px;
-
-
 }
 
 .fa-facebook {
@@ -153,7 +139,6 @@ p {
     background: #fb2056;
     color: white;
     padding: 10px 10px;
-
 }
 
 .fa-youtube {
@@ -161,8 +146,6 @@ p {
     background: #fb2056;
     color: white;
     padding: 10px 10px;
-
-
 }
 
 .fa:hover {
@@ -170,7 +153,6 @@ p {
 }
 
 @media all and (max-width: 1024px) {
-
     .contact-form,
     form {
         display: flex;
@@ -183,8 +165,6 @@ p {
 
     form {
         height: fit-content;
-
-
     }
 
     .contact-form {
@@ -195,7 +175,6 @@ p {
     .contact-info {
         width: 80%;
         align-items: flex-start;
-
     }
 
     textarea {
@@ -208,7 +187,6 @@ p {
 }
 
 @media all and (max-width: 720px) {
-
     .block-form {
         width: 70%;
     }
@@ -240,6 +218,5 @@ p {
 
     form {
         width: 100%;
-
     }
 }

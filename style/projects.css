@@ -11,22 +11,26 @@ header {
 .carrousel {
   padding: 50px 0px;
   background-color: #f5f5f5;
-  
 }
+
 .carrousel+div {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
 .text {
   margin: auto;
   width: 62%;
   gap: 50px;
 }
-h2,p {
+
+h2,
+p {
   padding-top: 25px;
 }
+
 p {
   padding-top: 15px;
   padding-bottom: 25px;
@@ -34,19 +38,21 @@ p {
 
 
 .projects {
-  
   margin: 0px;
   padding: 0px;
   padding-bottom: 2px;
   padding-left: 2px;
 }
+
 /* hide the images block */
+
 .images {
   display: flex;
   justify-content: center;
   gap: 20px;
   display: none;
 }
+
 .imagesB,
 .imagesC {
   display: flex;
@@ -75,6 +81,7 @@ p {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .dot:hover {
   background-color: #fb2057bd;
 }
@@ -84,20 +91,19 @@ p {
 }
 
 @media all and (max-width: 1024px) {
-.images img,
-.imagesB img,
-.imagesC img {
 
-  width: 40%;
+  .images img,
+  .imagesB img,
+  .imagesC img {
+    width: 40%;
+  }
+
+  .images :nth-child(3),
+  .imagesB :nth-child(3),
+  .imagesC :nth-child(3) {
+    display: none;
+
+  }
+
 
 }
-.images :nth-child(3),
-.imagesB :nth-child(3),
-.imagesC :nth-child(3) {
-  display: none;
-  
-}
-
-  
-}
-
