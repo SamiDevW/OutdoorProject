@@ -54,7 +54,7 @@ h5 {
 }
 
 .bot-block-row p {
-    height: 100%;
+    
     width: 80%;
     text-align: start;
 }
@@ -87,10 +87,7 @@ hr p {
 }
 
 @media all and (max-width: 1024px) {
-    .text {
-        padding: 0 !important;
-    }
-
+  
     .bot-block-sec p {
         margin: 0;
     }
