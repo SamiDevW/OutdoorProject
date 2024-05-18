@@ -11,6 +11,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     padding-bottom: 50px;
 }
 
@@ -23,7 +24,7 @@ h2 {
 }
 
 h5 {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .img-shadow p {
@@ -41,24 +42,30 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    width: 100%;
+    
 }
 
 .bot-block-row {
     margin: 50px 0;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 100%;
-    padding-left: 70px;
+    gap: 200px;
+    padding: 0 100px;
 }
 
 .bot-block-row p {
+    height: 100%;
     width: 80%;
+    text-align: start;
 }
 
 .bot-block-row div {
-    width: 35%;
+    
+    justify-content: center;
+    width: 50%;
+}
+hr p {
+    text-wrap: nowrap;
 }
 
 .two-img {
@@ -75,8 +82,14 @@ h5 {
     justify-content: center;
     align-items: space-around;
 }
+.basic-text {
+    width: 100%;
+}
 
 @media all and (max-width: 1024px) {
+    .text {
+        padding: 0 !important;
+    }
 
     .bot-block-sec p {
         margin: 0;
@@ -86,6 +99,7 @@ h5 {
         margin: 0;
         width: 80%;
         padding: 50px;
+        gap: 50px;
     }
 
     .bot-block-row div {

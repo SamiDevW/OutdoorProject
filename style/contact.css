@@ -47,7 +47,7 @@ textarea {
 }
 
 input {
-    width: 93%;
+    width: 100%;
     padding: 12px;
     margin-top: 20px;
     font-size: 16px;
@@ -69,7 +69,6 @@ textarea {
     padding: 12px;
     color: #666;
     border: solid 1px rgb(221, 221, 221);
-    box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
     height: 120px;
@@ -160,8 +159,9 @@ p {
     }
 
     .block-form {
-        width: 80%;
+        margin: auto !important;
     }
+
 
     form {
         height: fit-content;
@@ -173,22 +173,22 @@ p {
     }
 
     .contact-info {
-        width: 80%;
-        align-items: flex-start;
+        margin: auto !important;
+        padding-bottom: 50px;
     }
 
     textarea {
-        width: 80%;
+        width: 100%;
     }
 
     input {
-        width: 75.5%;
+        width: 100%;
     }
 }
 
 @media all and (max-width: 720px) {
     .block-form {
-        width: 70%;
+        margin: auto;
     }
 
     form {
@@ -197,13 +197,14 @@ p {
     }
 
     textarea {
-        width: 80%;
+        width: 100%;
     }
 
     input {
-        width: 70%;
+        width: 100%;
     }
 }
+
 
 @media all and (max-width: 420px) {
     header {

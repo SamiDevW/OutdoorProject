@@ -95,7 +95,7 @@ p {
   .images img,
   .imagesB img,
   .imagesC img {
-    width: 40%;
+    width: 45%;
   }
 
   .images :nth-child(3),
@@ -104,6 +104,33 @@ p {
     display: none;
 
   }
+  .text {
+    margin: 0;
+    width: 80%;
+    padding: 0 50px;
+}
+
+
+
+}
+@media all and (max-width: 720px) {
+
+  .images :nth-child(2),
+  .imagesB :nth-child(2),
+  .imagesC :nth-child(2) {
+    display: none;
+
+  }
+  .images img,
+  .imagesB img,
+  .imagesC img {
+    width: 90%;
+  }
+  .text {
+    margin: 0;
+    width: 90%;
+    /* padding: 0 50px; */
+}
 
 
 }

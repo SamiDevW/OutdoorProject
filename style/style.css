@@ -245,7 +245,7 @@ nav {
 
 
 }
-
+/* Navbar back */
 @supports (display: flex) {
     @media all and (min-width: 1024px) {
         .nav-link {
@@ -253,10 +253,19 @@ nav {
         }
     }
 }
-
+/* responsive */
 @media all and (max-width: 1024px) {
-    header {
-        height: 40vh;
+    header{
+        
+        background-repeat: no-repeat;
+        background-attachment: scroll !important;
+        height: 100% !important;
+
+    }
+    
+    .intro-box{
+        padding: 100px 0 !important;
+        margin: 0 !important;
     }
     .two-img,
     .bot-block-row,
@@ -323,6 +332,7 @@ nav {
 
     h1 {
         font-size: 44px;
+        
 
     }
 

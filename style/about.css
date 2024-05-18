@@ -11,46 +11,51 @@ header {
 .sec-mission {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 0px 200px;
+    padding-left: 100px;
 
 }
 
 .top-block-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45% 45%;
     margin: 50px 0;
 }
 
 .bot-block-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45% 45%;
     gap: 20px;
 }
 
 .bot-block-row div {
-    width: 100% !important;
-    height: 50%;
+    width: 80% !important;
+    height: 70%;
 }
 
 
 
 .top-block-row p {
-    width: 50%;
+    width: 80%;
     padding-bottom: 50px;
+    overflow-wrap: break-word;
+    line-height: 27px;
 }
 
 .img-shadow {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    padding-left: 5px;
+    /* height: 100%; */
+    
 }
 
-.img-shadow {
-    display: inline-block;
+.img-shadow img {
+    width: 500px !important;
+    display: block;
     box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
 }
 
 @media all and (max-width: 1024px) {
+    
 
 
     .top-block-row,
@@ -85,13 +90,13 @@ header {
         width: 80%;
     }
 
-    .img-shadow {
-        width: 70%
+    .img-shadow img {
+        width: 70% !important;
     }
 }
 
 @media all and (max-width: 720px) {
-    .img-shadow {
-        width: 70%
+    .img-shadow img {
+        width: 70% !important;
     }
 }
