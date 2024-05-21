@@ -1,15 +1,14 @@
 header {
-    
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/hero-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/images-home/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .top {
-    border-top: #fb2056 solid 2px;
+    border-top: var(--main-color) solid 2px;
 }
 
 h2 {
@@ -92,7 +91,7 @@ h2 {
 .bg-txt-right-block {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-home/section-bg-img.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/images-home/section-bg-img.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

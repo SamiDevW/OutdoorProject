@@ -1,7 +1,7 @@
 header {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-services/services-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/images-services/services-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -54,7 +54,6 @@ h5 {
 }
 
 .bot-block-row p {
-    
     width: 80%;
     text-align: start;
 }

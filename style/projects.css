@@ -2,7 +2,7 @@ header {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-projects/project-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/images-projects/project-background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -83,11 +83,11 @@ p {
 }
 
 .dot:hover {
-  background-color: #fb2057bd;
+  background-color: var(--main-color);
 }
 
 .active {
-  background-color: #fb2057bd;
+  background-color: var(--main-color);
 }
 
 @media all and (max-width: 1024px) {

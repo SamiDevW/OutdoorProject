@@ -1,7 +1,7 @@
 header {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images-contact/about-bg-2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/images-contact/about-bg-2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -78,11 +78,11 @@ textarea {
 
 button {
     color: white;
-    background-color: #fb2056;
+    background-color: var(--main-color);
     padding: 17px 40px;
     border-radius: 30px;
     align-self: baseline;
-    border: #fb2056;
+    border: var(--main-color);
     font-family: "Noto Sans", sans-serif;
     font-weight: 700;
 }
@@ -128,21 +128,21 @@ p {
 
 .fa-facebook {
     border-radius: 50%;
-    background: #fb2056;
+    background: var(--main-color);
     color: white;
     font-size: 14px;
 }
 
 .fa-twitter {
     border-radius: 50%;
-    background: #fb2056;
+    background: var(--main-color);
     color: white;
     padding: 10px 10px;
 }
 
 .fa-youtube {
     border-radius: 50%;
-    background: #fb2056;
+    background: var(--main-color);
     color: white;
     padding: 10px 10px;
 }
